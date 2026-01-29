@@ -1,43 +1,75 @@
-To-Do List Application
-Objective:
+# To-Do List Application
+
+**Objective:**  
 A simple console-based To-Do List manager to organize and manage tasks efficiently.
 
-Features
+---
+
+## Features
+
 This application allows the user to:
-Add a New Task
-Create tasks with a title, description, due date, and status.
-Mark Task as Complete
-Update a task’s status to completed.
 
-Delete Task
-Remove a task from the list by its title.
+1. **Add a New Task**  
+   Create tasks with a title, description, due date, and status.
 
-Show All Tasks
-Display all tasks with their details (title, description, due date, status).
+2. **Mark Task as Complete**  
+   Update a task’s status to `completed`.
 
-Change Due Date
-Update the due date of an existing task.
+3. **Delete Task**  
+   Remove a task from the list by its title.
 
-Exit
-Close the application.
+4. **Show All Tasks**  
+   Display all tasks with their details (title, description, due date, status).
 
-Concepts Covered
-Classes & Encapsulation: Using Task and TaskManager classes with private fields and public methods.
-Collections: Managing a list of tasks with Dart lists.
-CRUD Operations: Create, Read, Update, Delete tasks.
-Enums: For task status (uncompleted, completed).
+5. **Change Due Date**  
+   Update the due date of an existing task.
 
-Example Workflow
-1. Add a new task:
-Title: Buy Groceries
-Description: Milk, Bread, Eggs
-Due Date: 2026-01-30
-Status: uncompleted
+6. **Exit**  
+   Close the application.
+
+---
+
+## Concepts Covered
+
+- **Classes & Encapsulation:** Using `Task` and `TaskManager` classes with private fields and public methods.  
+- **Collections:** Managing a list of tasks with Dart lists.  
+- **CRUD Operations:** Create, Read, Update, Delete tasks.  
+- **Enums:** For task status (`pending`, `completed`).  
+
+---
+
+## Usage
+
+1. Run the application in a Dart environment.
+2. Choose one of the options from the menu:
+    1 - Add New Task
+    2 - Mark Task as Complete
+    3 - Delete Task
+    4 - Show All Tasks
+    5 - Change Due Date
+    6 - Exit
+
+3. Follow the prompts to perform the selected operation.
+4. Tasks are displayed with all details for easy tracking.
+
+---
+
+## Example Workflow
+
+1. Add a new task:  
+    Title: Buy Groceries
+    Description: Milk, Bread, Eggs
+    Due Date: 2026-01-30
+    Status: pending
 
 2. Mark "Buy Groceries" as complete.
-Show all tasks: the task now shows status as completed.
+3. Show all tasks: the task now shows status as `completed`.
+4. Delete a task: remove tasks you no longer need.
+5. Change due date: update deadlines for important tasks.
+6. Exit the application when done.
 
-3.Delete a task: remove tasks you no longer need.
-4.Change due date: update deadlines for important tasks.
+---
 
-Exit the application when done
+
+
+
